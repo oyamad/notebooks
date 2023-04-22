@@ -1,0 +1,14 @@
+name: notebooks-environment
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy
+  - scipy
+  - pandas
+  - numba
+  - sympy
+  - requests
+  - matplotlib
+  - pip:
+    - git+https://github.com/QuantEcon/QuantEcon.py@main
