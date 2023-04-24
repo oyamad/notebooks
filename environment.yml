@@ -10,4 +10,4 @@ dependencies:
   - requests
   - matplotlib
   - pip:
-    - git+https://github.com/QuantEcon/QuantEcon.py@main
+    - quantecon
